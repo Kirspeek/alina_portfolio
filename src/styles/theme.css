@@ -1,0 +1,47 @@
+:root {
+  /* Theme Colors */
+  --theme-red: #ff5733;
+  --theme-green: #2a6b3c;
+  --theme-yellow: #ffd700;
+  --theme-blue: #1e90ff;
+  --theme-pink: #ffb6c1;
+  --theme-black: #000000;
+  --theme-white: #ffffff;
+
+  /* Functional Colors */
+  --text-primary: var(--theme-white);
+  --text-secondary: rgba(255, 255, 255, 0.9);
+  --background-dark: var(--theme-black);
+  --background-overlay: rgba(0, 0, 0, 0.15);
+  --background-overlay-dark: rgba(0, 0, 0, 0.2);
+  --scrollbar-track: rgba(255, 255, 255, 0.1);
+  --scrollbar-thumb: rgba(255, 255, 255, 0.3);
+
+  /* Layout */
+  --sidebar-width: 35%;
+  --main-width: 65%;
+
+  /* Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+  --spacing-xxl: 4rem;
+
+  /* Typography */
+  --font-size-sm: 0.9rem;
+  --font-size-base: 1rem;
+  --font-size-md: 1.2rem;
+  --font-size-lg: 1.3rem;
+  --font-size-xl: 1.8rem;
+  --font-size-xxl: 2rem;
+  --font-size-huge: 3.5rem;
+
+  /* Border Radius */
+  --border-radius-pill: 3rem;
+  --border-radius-sm: 4px;
+
+  /* Transitions */
+  --transition-base: 0.2s;
+}

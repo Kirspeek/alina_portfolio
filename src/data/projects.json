@@ -1,0 +1,57 @@
+{
+  "projects": [
+    {
+      "id": "fizz-icons",
+      "title": "FIZZ ICONS",
+      "description": "Student debit card icons and illustrations for the entire ecosystem.",
+      "images": [
+        "/src/assets/images/1.png",
+        "/src/assets/images/1 2.png",
+        "/src/assets/images/1 3.png",
+        "/src/assets/images/1 4.png"
+      ],
+      "type": "Lettering",
+      "color": "red"
+    },
+    {
+      "id": "wirtschafts-woche",
+      "title": "WIRTSCHAFTS WOCHE",
+      "description": "Editorial illustrations for economic growth analysis.",
+      "images": ["/src/assets/images/2.png"],
+      "type": "Editorial",
+      "color": "green"
+    },
+    {
+      "id": "guardian-weekly",
+      "title": "THE GUARDIAN WEEKLY",
+      "description": "Digital illustration series for technology impact stories.",
+      "images": ["/src/assets/images/3.png", "/src/assets/images/3 2.png"],
+      "type": "Editorial",
+      "color": "green"
+    },
+    {
+      "id": "saber-vivir",
+      "title": "SABER VIVIR",
+      "description": "Lifestyle blog illustrations and interactive elements.",
+      "images": ["/src/assets/images/IMG_4590.PNG"],
+      "type": "Blog",
+      "color": "yellow"
+    },
+    {
+      "id": "die-zeit",
+      "title": "DIE ZEIT",
+      "description": "Editorial design and illustrations for feature articles.",
+      "images": ["/src/assets/images/5.png"],
+      "type": "Editorial",
+      "color": "blue"
+    },
+    {
+      "id": "economist",
+      "title": "THE ECONOMIST",
+      "description": "Technology section illustrations and infographics.",
+      "images": ["/src/assets/images/IMAGE 2025-04-09 20:22:10.jpg"],
+      "type": "Editorial",
+      "color": "pink"
+    }
+  ]
+}
