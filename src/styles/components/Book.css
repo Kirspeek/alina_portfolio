@@ -1,0 +1,80 @@
+.book-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  perspective: 3000px;
+  position: relative;
+  padding: 1rem;
+}
+
+.book-page-container {
+  position: relative;
+  width: 100%;
+  height: 95vh;
+  transform-style: preserve-3d;
+  display: flex;
+  justify-content: center;
+}
+
+.book-page {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-origin: left center;
+  transition: transform 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  transform-style: preserve-3d;
+  user-select: none;
+  will-change: transform;
+}
+
+.book-page img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  pointer-events: none;
+  -webkit-user-drag: none;
+  padding: 0;
+  margin: 0;
+}
+
+.book-page.flipped {
+  transform: rotateY(180deg);
+  pointer-events: none;
+}
+
+.book-page:not(.flipped) {
+  transform: rotateY(0);
+  cursor: pointer;
+}
+
+/* Cursor styles for active page */
+.book-page:not(.flipped):last-of-type {
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .book-container {
+    padding: 0.5rem;
+    perspective: 2000px;
+  }
+
+  .book-page-container {
+    height: 90vh;
+  }
+}
+
+@media (max-width: 480px) {
+  .book-container {
+    padding: 0.25rem;
+    perspective: 1500px;
+  }
+
+  .book-page-container {
+    height: 85vh;
+  }
+}

@@ -6,11 +6,52 @@
 }
 
 .dashboard {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2px;
   padding: 2px;
   box-sizing: border-box;
   background-color: var(--background-dark);
   overflow-y: auto;
+}
+
+/* Grid layout modifiers for different screen sizes */
+@media (min-width: 1200px) {
+  .dashboard {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 1199px) and (min-width: 768px) {
+  .dashboard {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 767px) {
+  .dashboard {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Project card span modifiers */
+.project-card.span-2 {
+  grid-column: span 2;
+}
+
+.project-card.span-3 {
+  grid-column: span 3;
+}
+
+@media (max-width: 1199px) {
+  .project-card.span-3 {
+    grid-column: span 2;
+  }
+}
+
+@media (max-width: 767px) {
+  .project-card.span-2,
+  .project-card.span-3 {
+    grid-column: span 1;
+  }
 }

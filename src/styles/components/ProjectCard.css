@@ -6,6 +6,8 @@
   transition:
     transform 0.3s ease,
     box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
 }
 
 .project-card:hover {
@@ -13,14 +15,11 @@
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
-.project-image {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-}
-
 .project-content {
   padding: 1.5rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .project-title {
@@ -35,6 +34,38 @@
   font-size: 0.9rem;
   line-height: 1.5;
   margin-bottom: 1rem;
+}
+
+.project-images {
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  flex: 1;
+}
+
+/* Image layout configurations */
+.project-images.layout-1 {
+  grid-template-columns: 1fr;
+}
+
+.project-images.layout-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.project-images.layout-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.project-images.layout-4 {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.project-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
 }
 
 .project-tags {
@@ -55,6 +86,7 @@
 .project-links {
   display: flex;
   gap: 1rem;
+  margin-top: auto;
 }
 
 .project-link {
@@ -69,6 +101,22 @@
 
 .project-link:hover {
   color: var(--primary-color-dark);
+}
+
+/* General Responsive adjustments */
+@media (max-width: 768px) {
+  .project-images.layout-3,
+  .project-images.layout-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .project-images.layout-2,
+  .project-images.layout-3,
+  .project-images.layout-4 {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* Individual card heights */
@@ -97,7 +145,7 @@
 }
 
 .project-card.book {
-  height: 85vh;
+  height: 70vh;
 }
 
 /* Card content heights matching their parent cards */
@@ -126,7 +174,7 @@
 }
 
 .project-card.book .project-card-content {
-  height: 85vh;
+  height: 100vh;
 }
 
 .project-card.red {
@@ -225,7 +273,7 @@
 }
 
 .project-card.book .image-scroll-container {
-  height: 60vh;
+  height: 85vh;
 }
 
 .image-scroll-container.has-multiple-media {
@@ -282,7 +330,7 @@
 }
 
 .project-card.book .image-wrapper img {
-  max-height: 70vh;
+  max-height: 85vh;
 }
 
 .video-wrapper {
@@ -326,5 +374,5 @@
 }
 
 .project-card.book .video-wrapper video {
-  max-height: 70vh;
+  max-height: 85vh;
 }

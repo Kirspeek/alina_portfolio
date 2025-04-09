@@ -3,6 +3,7 @@
 @import "./styles/components/Dashboard.css";
 @import "./styles/components/ProjectCard.css";
 @import "./styles/components/Footer.css";
+@import "./styles/components/Alphabet.css";
 
 body {
   margin: 0;

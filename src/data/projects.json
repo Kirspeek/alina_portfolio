@@ -12,25 +12,20 @@
       "color": "red"
     },
     {
-      "id": "magic-forest",
-      "title": "Magic Forest",
-      "description": "Enchanting illustrations for children's stories.",
+      "id": "book",
+      "title": "Book",
+      "description": "Children's book illustrations and designs.",
       "images": [
-        "/src/assets/images/magic-forest/1.png",
-        "/src/assets/images/magic-forest/1 2.png",
-        "/src/assets/images/magic-forest/1 3.png",
-        "/src/assets/images/magic-forest/1 4.png",
-        "/src/assets/images/magic-forest/2.png",
-        "/src/assets/images/magic-forest/3.png",
-        "/src/assets/images/magic-forest/3 2.png",
-        "/src/assets/images/magic-forest/5.png",
-        "/src/assets/images/magic-forest/6.png",
-        "/src/assets/images/magic-forest/6 2.png",
-        "/src/assets/images/magic-forest/6 3.png",
-        "/src/assets/images/magic-forest/6 4.png",
-        "/src/assets/images/magic-forest/6 5.png",
-        "/src/assets/images/magic-forest/IMG_4590.PNG",
-        "/src/assets/images/magic-forest/IMAGE 2025-04-09 20:22:10.jpg"
+        "/src/assets/images/book/IMG_4643.PNG",
+        "/src/assets/images/book/IMG_4644.PNG",
+        "/src/assets/images/book/IMG_4645.PNG",
+        "/src/assets/images/book/IMG_4646.PNG",
+        "/src/assets/images/book/IMG_4647.PNG",
+        "/src/assets/images/book/IMG_4648.PNG",
+        "/src/assets/images/book/IMG_4650.PNG",
+        "/src/assets/images/book/IMG_4651.PNG",
+        "/src/assets/images/book/IMG_4652.PNG",
+        "/src/assets/images/book/IMG_4653.PNG"
       ],
       "color": "green"
     },
@@ -40,9 +35,6 @@
       "description": "Educational alphabet illustrations for kids.",
       "images": [
         "/src/assets/images/alphabet/2 2.png",
-        "/src/assets/images/alphabet/IMG_4593.PNG",
-        "/src/assets/images/alphabet/IMG_4594.PNG",
-        "/src/assets/images/alphabet/IMG_4595.PNG",
         "/src/assets/images/alphabet/IMG_4596.PNG",
         "/src/assets/images/alphabet/IMG_4597.PNG",
         "/src/assets/images/alphabet/IMG_4598.PNG",
@@ -68,10 +60,44 @@
         "/src/assets/images/alphabet/IMG_4618.PNG",
         "/src/assets/images/alphabet/IMG_4619.PNG",
         "/src/assets/images/alphabet/IMG_4620.PNG",
-        "/src/assets/images/alphabet/IMG_4621.PNG",
-        "/src/assets/images/alphabet/IMG_4622.PNG"
+        "/src/assets/images/alphabet/IMG_4621.PNG"
       ],
       "color": "yellow"
+    },
+    {
+      "id": "how-to-draw",
+      "title": "How To Draw",
+      "description": "Step-by-step drawing tutorials and guides.",
+      "images": [
+        "/src/assets/images/alphabet/IMG_4593.PNG",
+        "/src/assets/images/alphabet/IMG_4594.PNG",
+        "/src/assets/images/alphabet/IMG_4595.PNG",
+        "/src/assets/images/alphabet/IMG_4622.PNG"
+      ],
+      "color": "blue"
+    },
+    {
+      "id": "magic-forest",
+      "title": "Magic Forest",
+      "description": "Enchanting illustrations for children's stories.",
+      "images": [
+        "/src/assets/images/magic-forest/1.png",
+        "/src/assets/images/magic-forest/1 2.png",
+        "/src/assets/images/magic-forest/1 3.png",
+        "/src/assets/images/magic-forest/1 4.png",
+        "/src/assets/images/magic-forest/2.png",
+        "/src/assets/images/magic-forest/3.png",
+        "/src/assets/images/magic-forest/3 2.png",
+        "/src/assets/images/magic-forest/5.png",
+        "/src/assets/images/magic-forest/6.png",
+        "/src/assets/images/magic-forest/6 2.png",
+        "/src/assets/images/magic-forest/6 3.png",
+        "/src/assets/images/magic-forest/6 4.png",
+        "/src/assets/images/magic-forest/6 5.png",
+        "/src/assets/images/magic-forest/IMG_4590.PNG",
+        "/src/assets/images/magic-forest/IMAGE 2025-04-09 20:22:10.jpg"
+      ],
+      "color": "green"
     },
     {
       "id": "learn-to-count",
@@ -100,24 +126,6 @@
       "description": "Illustrations of heroes and characters.",
       "images": ["/src/assets/images/heroes/IMG_4640.PNG"],
       "color": "red"
-    },
-    {
-      "id": "book",
-      "title": "Book",
-      "description": "Children's book illustrations and designs.",
-      "images": [
-        "/src/assets/images/book/IMG_4643.PNG",
-        "/src/assets/images/book/IMG_4644.PNG",
-        "/src/assets/images/book/IMG_4645.PNG",
-        "/src/assets/images/book/IMG_4646.PNG",
-        "/src/assets/images/book/IMG_4647.PNG",
-        "/src/assets/images/book/IMG_4648.PNG",
-        "/src/assets/images/book/IMG_4650.PNG",
-        "/src/assets/images/book/IMG_4651.PNG",
-        "/src/assets/images/book/IMG_4652.PNG",
-        "/src/assets/images/book/IMG_4653.PNG"
-      ],
-      "color": "green"
     }
   ]
 }
