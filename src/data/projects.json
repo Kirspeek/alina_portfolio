@@ -1,57 +1,123 @@
 {
   "projects": [
     {
-      "id": "fizz-icons",
-      "title": "FIZZ ICONS",
-      "description": "Student debit card icons and illustrations for the entire ecosystem.",
+      "id": "lettering",
+      "title": "Lettering",
+      "description": "Creative lettering and typography explorations.",
       "images": [
-        "/src/assets/images/1.png",
-        "/src/assets/images/1 2.png",
-        "/src/assets/images/1 3.png",
-        "/src/assets/images/1 4.png"
+        "/src/assets/images/alphabet/1 5.png",
+        "/src/assets/images/lettering/1 2.png",
+        "/src/assets/images/lettering/IMG_4625.PNG"
       ],
-      "type": "Lettering",
       "color": "red"
     },
     {
-      "id": "wirtschafts-woche",
-      "title": "WIRTSCHAFTS WOCHE",
-      "description": "Editorial illustrations for economic growth analysis.",
-      "images": ["/src/assets/images/2.png"],
-      "type": "Editorial",
+      "id": "magic-forest",
+      "title": "Magic Forest",
+      "description": "Enchanting illustrations for children's stories.",
+      "images": [
+        "/src/assets/images/magic-forest/1.png",
+        "/src/assets/images/magic-forest/1 2.png",
+        "/src/assets/images/magic-forest/1 3.png",
+        "/src/assets/images/magic-forest/1 4.png",
+        "/src/assets/images/magic-forest/2.png",
+        "/src/assets/images/magic-forest/3.png",
+        "/src/assets/images/magic-forest/3 2.png",
+        "/src/assets/images/magic-forest/5.png",
+        "/src/assets/images/magic-forest/6.png",
+        "/src/assets/images/magic-forest/6 2.png",
+        "/src/assets/images/magic-forest/6 3.png",
+        "/src/assets/images/magic-forest/6 4.png",
+        "/src/assets/images/magic-forest/6 5.png",
+        "/src/assets/images/magic-forest/IMG_4590.PNG",
+        "/src/assets/images/magic-forest/IMAGE 2025-04-09 20:22:10.jpg"
+      ],
       "color": "green"
     },
     {
-      "id": "guardian-weekly",
-      "title": "THE GUARDIAN WEEKLY",
-      "description": "Digital illustration series for technology impact stories.",
-      "images": ["/src/assets/images/3.png", "/src/assets/images/3 2.png"],
-      "type": "Editorial",
-      "color": "green"
-    },
-    {
-      "id": "saber-vivir",
-      "title": "SABER VIVIR",
-      "description": "Lifestyle blog illustrations and interactive elements.",
-      "images": ["/src/assets/images/IMG_4590.PNG"],
-      "type": "Blog",
+      "id": "alphabet",
+      "title": "Alphabet",
+      "description": "Educational alphabet illustrations for kids.",
+      "images": [
+        "/src/assets/images/alphabet/2 2.png",
+        "/src/assets/images/alphabet/IMG_4593.PNG",
+        "/src/assets/images/alphabet/IMG_4594.PNG",
+        "/src/assets/images/alphabet/IMG_4595.PNG",
+        "/src/assets/images/alphabet/IMG_4596.PNG",
+        "/src/assets/images/alphabet/IMG_4597.PNG",
+        "/src/assets/images/alphabet/IMG_4598.PNG",
+        "/src/assets/images/alphabet/IMG_4599.PNG",
+        "/src/assets/images/alphabet/IMG_4600.PNG",
+        "/src/assets/images/alphabet/IMG_4601.PNG",
+        "/src/assets/images/alphabet/IMG_4602.PNG",
+        "/src/assets/images/alphabet/IMG_4603.PNG",
+        "/src/assets/images/alphabet/IMG_4604.PNG",
+        "/src/assets/images/alphabet/IMG_4605.PNG",
+        "/src/assets/images/alphabet/IMG_4606.PNG",
+        "/src/assets/images/alphabet/IMG_4607.PNG",
+        "/src/assets/images/alphabet/IMG_4608.PNG",
+        "/src/assets/images/alphabet/IMG_4609.PNG",
+        "/src/assets/images/alphabet/IMG_4610.PNG",
+        "/src/assets/images/alphabet/IMG_4611.PNG",
+        "/src/assets/images/alphabet/IMG_4612.PNG",
+        "/src/assets/images/alphabet/IMG_4613.PNG",
+        "/src/assets/images/alphabet/IMG_4614.PNG",
+        "/src/assets/images/alphabet/IMG_4615.PNG",
+        "/src/assets/images/alphabet/IMG_4616.PNG",
+        "/src/assets/images/alphabet/IMG_4617.PNG",
+        "/src/assets/images/alphabet/IMG_4618.PNG",
+        "/src/assets/images/alphabet/IMG_4619.PNG",
+        "/src/assets/images/alphabet/IMG_4620.PNG",
+        "/src/assets/images/alphabet/IMG_4621.PNG",
+        "/src/assets/images/alphabet/IMG_4622.PNG"
+      ],
       "color": "yellow"
     },
     {
-      "id": "die-zeit",
-      "title": "DIE ZEIT",
-      "description": "Editorial design and illustrations for feature articles.",
-      "images": ["/src/assets/images/5.png"],
-      "type": "Editorial",
+      "id": "learn-to-count",
+      "title": "Learn to Count",
+      "description": "Interactive counting illustrations for early learning.",
+      "images": [
+        "/src/assets/images/learn-to-count/IMG_4624.PNG",
+        "/src/assets/images/learn-to-count/IMG_4625.PNG",
+        "/src/assets/images/learn-to-count/IMG_4626.PNG",
+        "/src/assets/images/learn-to-count/IMG_4627.PNG",
+        "/src/assets/images/learn-to-count/IMG_4628.PNG"
+      ],
+      "video": "/src/assets/images/learn-to-count/learntocount.mp4",
       "color": "blue"
     },
     {
-      "id": "economist",
-      "title": "THE ECONOMIST",
-      "description": "Technology section illustrations and infographics.",
-      "images": ["/src/assets/images/IMAGE 2025-04-09 20:22:10.jpg"],
-      "type": "Editorial",
+      "id": "thank-you",
+      "title": "Thank You",
+      "description": "A special thank you message.",
+      "video": "/src/assets/thankyou.mp4",
       "color": "pink"
+    },
+    {
+      "id": "heroes",
+      "title": "Heroes",
+      "description": "Illustrations of heroes and characters.",
+      "images": ["/src/assets/images/heroes/IMG_4640.PNG"],
+      "color": "red"
+    },
+    {
+      "id": "book",
+      "title": "Book",
+      "description": "Children's book illustrations and designs.",
+      "images": [
+        "/src/assets/images/book/IMG_4643.PNG",
+        "/src/assets/images/book/IMG_4644.PNG",
+        "/src/assets/images/book/IMG_4645.PNG",
+        "/src/assets/images/book/IMG_4646.PNG",
+        "/src/assets/images/book/IMG_4647.PNG",
+        "/src/assets/images/book/IMG_4648.PNG",
+        "/src/assets/images/book/IMG_4650.PNG",
+        "/src/assets/images/book/IMG_4651.PNG",
+        "/src/assets/images/book/IMG_4652.PNG",
+        "/src/assets/images/book/IMG_4653.PNG"
+      ],
+      "color": "green"
     }
   ]
 }

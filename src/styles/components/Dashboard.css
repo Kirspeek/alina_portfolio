@@ -1,0 +1,16 @@
+.main-content {
+  width: var(--main-width);
+  background-color: var(--background-dark);
+  margin-left: var(--sidebar-width);
+  overflow: hidden;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 2px;
+  box-sizing: border-box;
+  background-color: var(--background-dark);
+  overflow-y: auto;
+}

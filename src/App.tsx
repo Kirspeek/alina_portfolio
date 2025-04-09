@@ -1,11 +1,13 @@
 import "./App.css";
 import projectsData from "./data/projects.json";
+import avatar from "./assets/avatar.png";
 
 function App() {
   return (
     <div className="app-container">
       <aside className="sidebar">
         <div className="logo">
+          <img src={avatar} alt="Avatar" className="avatar" />
           <h1>DESIGN ABOUT</h1>
           <p>ART BELONGS TO THE PEOPLE!</p>
         </div>
@@ -52,18 +54,32 @@ function App() {
           {projectsData.projects.map((project) => (
             <div key={project.id} className={`project-card ${project.color}`}>
               <div className="project-card-content">
-                <span className="project-type">{project.type}</span>
-                <h2>{project.title}</h2>
-                <p>{project.description}</p>
+                <div className="card-header">
+                  <span className="project-label">{project.title}</span>
+                  <h2>{project.description}</h2>
+                </div>
                 <div className="image-scroll-container">
-                  {project.images.map((image, index) => (
-                    <div key={index} className="image-wrapper">
-                      <img
-                        src={image}
-                        alt={`${project.title} - ${index + 1}`}
+                  {project.video ? (
+                    <div className="video-wrapper">
+                      <video
+                        controls
+                        autoPlay
+                        loop
+                        muted
+                        playsInline
+                        src={project.video}
                       />
                     </div>
-                  ))}
+                  ) : (
+                    project.images?.map((image, index) => (
+                      <div key={index} className="image-wrapper">
+                        <img
+                          src={image}
+                          alt={`${project.title} - ${index + 1}`}
+                        />
+                      </div>
+                    ))
+                  )}
                 </div>
               </div>
             </div>

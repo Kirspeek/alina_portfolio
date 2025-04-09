@@ -1,0 +1,330 @@
+.project-card {
+  background-color: var(--background-secondary);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.project-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.project-content {
+  padding: 1.5rem;
+}
+
+.project-title {
+  color: var(--text-primary);
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.project-description {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.project-tag {
+  background-color: var(--background-hover);
+  color: var(--text-primary);
+  padding: 0.25rem 0.75rem;
+  border-radius: 16px;
+  font-size: 0.8rem;
+}
+
+.project-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.project-link {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: color 0.2s ease;
+}
+
+.project-link:hover {
+  color: var(--primary-color-dark);
+}
+
+/* Individual card heights */
+.project-card.lettering {
+  height: 100vh;
+}
+
+.project-card.magic-forest {
+  height: 70vh;
+}
+
+.project-card.alphabet {
+  height: 90vh;
+}
+
+.project-card.learn-to-count {
+  height: 80vh;
+}
+
+.project-card.thank-you {
+  height: 60vh;
+}
+
+.project-card.heroes {
+  height: 30vh;
+}
+
+.project-card.book {
+  height: 85vh;
+}
+
+/* Card content heights matching their parent cards */
+.project-card.lettering .project-card-content {
+  height: 100vh;
+}
+
+.project-card.magic-forest .project-card-content {
+  height: 70vh;
+}
+
+.project-card.alphabet .project-card-content {
+  height: 90vh;
+}
+
+.project-card.learn-to-count .project-card-content {
+  height: 80vh;
+}
+
+.project-card.thank-you .project-card-content {
+  height: 60vh;
+}
+
+.project-card.heroes .project-card-content {
+  height: 50vh;
+}
+
+.project-card.book .project-card-content {
+  height: 85vh;
+}
+
+.project-card.red {
+  background-color: var(--theme-red);
+}
+
+.project-card.green {
+  background-color: var(--theme-green);
+}
+
+.project-card.yellow {
+  background-color: var(--theme-yellow);
+}
+
+.project-card.blue {
+  background-color: var(--theme-blue);
+}
+
+.project-card.pink {
+  background-color: var(--theme-pink);
+}
+
+.project-card-content {
+  position: relative;
+  padding: var(--spacing-lg);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-header {
+  margin-bottom: var(--spacing-lg);
+  z-index: 2;
+}
+
+.project-label {
+  display: inline-block;
+  font-size: var(--font-size-xxl);
+  padding: var(--spacing-sm) var(--spacing-lg);
+  background-color: var(--background-overlay-dark);
+  color: var(--text-primary);
+  border-radius: var(--border-radius-pill);
+  margin-bottom: var(--spacing-md);
+  letter-spacing: 0.05em;
+  font-weight: bold;
+}
+
+.project-card h2 {
+  color: var(--text-primary);
+  font-size: var(--font-size-lg);
+  font-weight: normal;
+  margin: 0;
+  line-height: 1.4;
+  opacity: 0.9;
+}
+
+.image-scroll-container {
+  flex: 1;
+  display: flex;
+  gap: var(--spacing-lg);
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: var(--spacing-sm);
+  margin: calc(var(--spacing-sm) * -1);
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  transition: all 0.3s ease;
+}
+
+/* Custom scroll container heights for specific cards */
+.project-card.lettering .image-scroll-container {
+  height: 70vh;
+}
+
+.project-card.magic-forest .image-scroll-container {
+  height: 50vh;
+}
+
+.project-card.alphabet .image-scroll-container {
+  height: 65vh;
+}
+
+.project-card.learn-to-count .image-scroll-container {
+  height: 60vh;
+}
+
+.project-card.thank-you .image-scroll-container {
+  height: 40vh;
+}
+
+.project-card.heroes .image-scroll-container {
+  height: 25vh;
+}
+
+.project-card.book .image-scroll-container {
+  height: 60vh;
+}
+
+.image-scroll-container.has-multiple-media {
+  cursor: pointer;
+}
+
+.image-scroll-container.has-multiple-media:hover {
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-scroll-container::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+.image-wrapper {
+  flex: 0 0 100%;
+  width: 100%;
+  scroll-snap-align: start;
+  transition: transform 0.3s ease;
+  scroll-snap-stop: always;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: auto;
+  max-height: 80vh;
+  object-fit: contain;
+  display: block;
+}
+
+/* Custom image heights for specific cards */
+.project-card.lettering .image-wrapper img {
+  max-height: 70vh;
+}
+
+.project-card.magic-forest .image-wrapper img {
+  max-height: 60vh;
+}
+
+.project-card.alphabet .image-wrapper img {
+  max-height: 75vh;
+}
+
+.project-card.learn-to-count .image-wrapper img {
+  max-height: 65vh;
+}
+
+.project-card.thank-you .image-wrapper img {
+  max-height: 50vh;
+}
+
+.project-card.heroes .image-wrapper img {
+  max-height: 40vh;
+}
+
+.project-card.book .image-wrapper img {
+  max-height: 70vh;
+}
+
+.video-wrapper {
+  flex: 0 0 100%;
+  width: 100%;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+
+.video-wrapper video {
+  width: 100%;
+  height: auto;
+  max-height: 80vh;
+  object-fit: contain;
+  display: block;
+}
+
+/* Custom video heights for specific cards */
+.project-card.lettering .video-wrapper video {
+  max-height: 70vh;
+}
+
+.project-card.magic-forest .video-wrapper video {
+  max-height: 60vh;
+}
+
+.project-card.alphabet .video-wrapper video {
+  max-height: 75vh;
+}
+
+.project-card.learn-to-count .video-wrapper video {
+  max-height: 65vh;
+}
+
+.project-card.thank-you .video-wrapper video {
+  max-height: 50vh;
+}
+
+.project-card.heroes .video-wrapper video {
+  max-height: 40vh;
+}
+
+.project-card.book .video-wrapper video {
+  max-height: 70vh;
+}
