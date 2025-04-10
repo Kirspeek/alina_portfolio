@@ -1,4 +1,5 @@
 import "./App.css";
+import "./styles/components/MagicForest.css";
 import projectsData from "./data/projects.json";
 import avatar from "./assets/avatar.png";
 import Book from "./components/Book";
@@ -73,6 +74,47 @@ function App() {
                   alt={`${project.title} - ${index + 2}`}
                 />
               </div>
+            ))}
+          </div>
+        </div>
+      );
+    }
+
+    if (project.id === "magic-forest" && project.images) {
+      const sequentialImages = project.images.slice(0, 6);
+      const horizontalImages = project.images.slice(6, 11);
+      const remainingImages = project.images.slice(11);
+
+      return (
+        <div className="project-images magic-forest-layout">
+          <div className="magic-forest-grid">
+            {sequentialImages.map((image: string, index: number) => (
+              <img
+                key={index}
+                className="project-image"
+                src={image}
+                alt={`${project.title} - ${index + 1}`}
+              />
+            ))}
+          </div>
+          <div className="magic-forest-horizontal">
+            {horizontalImages.map((image: string, index: number) => (
+              <img
+                key={index + 6}
+                className="project-image"
+                src={image}
+                alt={`${project.title} - ${index + 7}`}
+              />
+            ))}
+          </div>
+          <div className="magic-forest-grid">
+            {remainingImages.map((image: string, index: number) => (
+              <img
+                key={index + 11}
+                className="project-image"
+                src={image}
+                alt={`${project.title} - ${index + 12}`}
+              />
             ))}
           </div>
         </div>
