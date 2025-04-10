@@ -81,9 +81,9 @@ function App() {
     }
 
     if (project.id === "magic-forest" && project.images) {
-      const sequentialImages = project.images.slice(0, 6);
-      const horizontalImages = project.images.slice(6, 11);
-      const remainingImages = project.images.slice(11);
+      const sequentialImages = project.images.slice(0, 2);
+      const horizontalImages = project.images.slice(2, 9);
+      const remainingImages = project.images.slice(9);
 
       return (
         <div className="project-images magic-forest-layout">
