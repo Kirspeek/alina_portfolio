@@ -3,6 +3,8 @@ import "./styles/components/MagicForest.css";
 import projectsData from "./data/projects.json";
 import avatar from "/assets/avatar.png";
 import Book from "./components/Book";
+import ProfileCard from "./components/ProfileCard";
+import { useState, useEffect } from "react";
 
 interface Project {
   id: string;
@@ -14,6 +16,18 @@ interface Project {
 }
 
 function App() {
+  const [isSidebarOpen] = useState(false);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 1024);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 1024);
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   // Function to determine the layout class based on number of images
   const getLayoutClass = (images: string[] | undefined, projectId: string) => {
     if (!images) return "layout-1";
@@ -139,52 +153,21 @@ function App() {
 
   return (
     <div className="app-container">
-      <aside className="sidebar">
-        <div className="logo">
-          <img src={avatar} alt="Avatar" className="avatar" />
-          <h1>DESIGN ABOUT</h1>
-          <p>ART BELONGS TO THE PEOPLE!</p>
-        </div>
-
-        <div className="bio">
-          <p>
-            I am a creative developer and designer based in Madrid, working
-            worldwide.
-          </p>
-          <p>Always passionate. Always on the move.</p>
-        </div>
-
-        <nav className="social-links">
-          <a
-            href="https://instagram.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {`>`} Instagram
-          </a>
-          <a
-            href="https://behance.net"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {`>`} Behance
-          </a>
-          <a
-            href="https://linkedin.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {`>`} LinkedIn
-          </a>
-        </nav>
-
-        <div className="blog-section">
-          <button className="blog-button">BLOG</button>
-        </div>
-      </aside>
+      {!isMobile && (
+        <aside className={`sidebar ${isSidebarOpen ? "active" : ""}`}>
+          <ProfileCard avatar={avatar} />
+        </aside>
+      )}
 
       <main className="main-content">
         <div className="dashboard">
+          {isMobile && (
+            <div className="project-card red span-3">
+              <div className="project-content">
+                <ProfileCard avatar={avatar} className="mobile-profile" />
+              </div>
+            </div>
+          )}
           {projectsData.projects.map((project) => (
             <div
               key={project.id}

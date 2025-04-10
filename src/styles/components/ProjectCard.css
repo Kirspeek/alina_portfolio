@@ -103,80 +103,102 @@
   color: var(--primary-color-dark);
 }
 
-/* General Responsive adjustments */
-@media (max-width: 768px) {
+/* Responsive Grid Adjustments */
+@media (max-width: 1024px) {
+  .project-card.span-3 {
+    grid-column: span 2;
+  }
+
   .project-images.layout-3,
   .project-images.layout-4 {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .project-content {
+    padding: 1rem;
+  }
+
+  .project-title {
+    font-size: 1.1rem;
+  }
+
+  .project-description {
+    font-size: 0.85rem;
+  }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
+  .project-card {
+    grid-column: 1 / -1 !important; /* Override all span classes */
+  }
+
   .project-images.layout-2,
   .project-images.layout-3,
   .project-images.layout-4 {
     grid-template-columns: 1fr;
   }
+
+  .project-content {
+    padding: 0.75rem;
+  }
+
+  .magic-forest-horizontal {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+
+  .magic-forest-horizontal img {
+    width: 120px;
+    height: 160px;
+  }
+
+  .alphabet-scroll-container {
+    height: 25vh;
+  }
+
+  .alphabet-first-image {
+    width: 100%;
+  }
 }
 
-/* Individual card heights */
+/* Card Heights */
 .project-card.lettering {
-  height: 100vh;
+  height: auto;
+  min-height: 50vh;
 }
 
 .project-card.magic-forest {
-  height: 70vh;
+  height: auto;
+  min-height: 60vh;
 }
 
 .project-card.alphabet {
-  height: 90vh;
+  height: auto;
+  min-height: 70vh;
 }
 
 .project-card.learn-to-count {
-  height: 80vh;
+  height: auto;
+  min-height: 50vh;
 }
 
 .project-card.thank-you {
-  height: 60vh;
+  height: auto;
+  min-height: 40vh;
 }
 
 .project-card.heroes {
-  height: 30vh;
+  height: auto;
+  min-height: 30vh;
 }
 
 .project-card.book {
-  height: 70vh;
+  height: auto;
+  min-height: 60vh;
 }
 
-/* Card content heights matching their parent cards */
-.project-card.lettering .project-card-content {
-  height: 100vh;
-}
-
-.project-card.magic-forest .project-card-content {
-  height: 70vh;
-}
-
-.project-card.alphabet .project-card-content {
-  height: 90vh;
-}
-
-.project-card.learn-to-count .project-card-content {
-  height: 80vh;
-}
-
-.project-card.thank-you .project-card-content {
-  height: 60vh;
-}
-
-.project-card.heroes .project-card-content {
-  height: 50vh;
-}
-
-.project-card.book .project-card-content {
-  height: 100vh;
-}
-
+/* Colors */
 .project-card.red {
   background-color: var(--theme-red);
 }
@@ -375,6 +397,54 @@
 
 .project-card.book .video-wrapper video {
   max-height: 85vh;
+}
+
+/* Mobile Profile Card Styles */
+.mobile-profile {
+  padding: 2rem;
+  text-align: center;
+}
+
+.mobile-profile .logo h1 {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.mobile-profile .bio {
+  margin: 1.5rem 0;
+}
+
+.mobile-profile .social-links {
+  justify-content: center;
+  margin: 1.5rem 0;
+}
+
+.mobile-profile .blog-button {
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .mobile-profile {
+    padding: 1rem;
+  }
+
+  .mobile-profile .logo h1 {
+    font-size: 1.5rem;
+  }
+
+  .mobile-profile .bio {
+    margin: 1rem 0;
+    font-size: 0.9rem;
+  }
+
+  .mobile-profile .social-links {
+    margin: 1rem 0;
+  }
+
+  .mobile-profile .blog-button {
+    max-width: 150px;
+  }
 }
 
 /* Remove all Magic Forest specific styles */

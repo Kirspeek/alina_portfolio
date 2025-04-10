@@ -7,10 +7,11 @@
 
 .dashboard {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2px;
-  padding: 2px;
-  box-sizing: border-box;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  padding: 1rem;
+  max-width: 1600px;
+  margin: 0 auto;
   background-color: var(--background-dark);
   overflow-y: auto;
 }
@@ -26,11 +27,21 @@
   .dashboard {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .project-card.span-3 {
+    grid-column: 1 / -1;
+  }
 }
 
 @media (max-width: 767px) {
   .dashboard {
     grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .project-card.span-2,
+  .project-card.span-3 {
+    grid-column: 1 / -1;
   }
 }
 
@@ -52,6 +63,47 @@
 @media (max-width: 767px) {
   .project-card.span-2,
   .project-card.span-3 {
+    grid-column: span 1;
+  }
+}
+
+/* Span classes for different card sizes */
+.span-2 {
+  grid-column: span 2;
+}
+
+.span-3 {
+  grid-column: span 3;
+}
+
+/* Tablet Styles */
+@media (max-width: 1024px) {
+  .dashboard {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding: 0.75rem;
+  }
+
+  .span-3 {
+    grid-column: span 2;
+  }
+
+  .project-card.red.span-3:first-child {
+    grid-column: 1 / -1;
+    margin-bottom: 1rem;
+  }
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .dashboard {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 0.5rem;
+  }
+
+  .span-2,
+  .span-3 {
     grid-column: span 1;
   }
 }
