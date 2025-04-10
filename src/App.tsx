@@ -1,7 +1,7 @@
 import "./App.css";
 import "./styles/components/MagicForest.css";
 import projectsData from "./data/projects.json";
-import avatar from "./assets/avatar.png";
+import avatar from "/assets/avatar.png";
 import Book from "./components/Book";
 
 interface Project {

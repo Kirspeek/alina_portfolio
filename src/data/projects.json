@@ -5,9 +5,9 @@
       "title": "Lettering",
       "description": "Creative lettering and typography explorations.",
       "images": [
-        "/src/assets/images/alphabet/1 5.png",
-        "/src/assets/images/lettering/1 2.png",
-        "/src/assets/images/lettering/IMG_4625.PNG"
+        "/assets/images/alphabet/1 5.png",
+        "/assets/images/lettering/1 2.png",
+        "/assets/images/lettering/IMG_4625.PNG"
       ],
       "color": "red"
     },
@@ -16,16 +16,16 @@
       "title": "Book",
       "description": "Children's book illustrations and designs.",
       "images": [
-        "/src/assets/images/book/IMG_4643.PNG",
-        "/src/assets/images/book/IMG_4644.PNG",
-        "/src/assets/images/book/IMG_4645.PNG",
-        "/src/assets/images/book/IMG_4646.PNG",
-        "/src/assets/images/book/IMG_4647.PNG",
-        "/src/assets/images/book/IMG_4648.PNG",
-        "/src/assets/images/book/IMG_4650.PNG",
-        "/src/assets/images/book/IMG_4651.PNG",
-        "/src/assets/images/book/IMG_4652.PNG",
-        "/src/assets/images/book/IMG_4653.PNG"
+        "/assets/images/book/IMG_4643.PNG",
+        "/assets/images/book/IMG_4644.PNG",
+        "/assets/images/book/IMG_4645.PNG",
+        "/assets/images/book/IMG_4646.PNG",
+        "/assets/images/book/IMG_4647.PNG",
+        "/assets/images/book/IMG_4648.PNG",
+        "/assets/images/book/IMG_4650.PNG",
+        "/assets/images/book/IMG_4651.PNG",
+        "/assets/images/book/IMG_4652.PNG",
+        "/assets/images/book/IMG_4653.PNG"
       ],
       "color": "green"
     },
@@ -34,33 +34,33 @@
       "title": "Alphabet",
       "description": "Educational alphabet illustrations for kids.",
       "images": [
-        "/src/assets/images/alphabet/2 2.png",
-        "/src/assets/images/alphabet/IMG_4596.PNG",
-        "/src/assets/images/alphabet/IMG_4597.PNG",
-        "/src/assets/images/alphabet/IMG_4598.PNG",
-        "/src/assets/images/alphabet/IMG_4599.PNG",
-        "/src/assets/images/alphabet/IMG_4600.PNG",
-        "/src/assets/images/alphabet/IMG_4601.PNG",
-        "/src/assets/images/alphabet/IMG_4602.PNG",
-        "/src/assets/images/alphabet/IMG_4603.PNG",
-        "/src/assets/images/alphabet/IMG_4604.PNG",
-        "/src/assets/images/alphabet/IMG_4605.PNG",
-        "/src/assets/images/alphabet/IMG_4606.PNG",
-        "/src/assets/images/alphabet/IMG_4607.PNG",
-        "/src/assets/images/alphabet/IMG_4608.PNG",
-        "/src/assets/images/alphabet/IMG_4609.PNG",
-        "/src/assets/images/alphabet/IMG_4610.PNG",
-        "/src/assets/images/alphabet/IMG_4611.PNG",
-        "/src/assets/images/alphabet/IMG_4612.PNG",
-        "/src/assets/images/alphabet/IMG_4613.PNG",
-        "/src/assets/images/alphabet/IMG_4614.PNG",
-        "/src/assets/images/alphabet/IMG_4615.PNG",
-        "/src/assets/images/alphabet/IMG_4616.PNG",
-        "/src/assets/images/alphabet/IMG_4617.PNG",
-        "/src/assets/images/alphabet/IMG_4618.PNG",
-        "/src/assets/images/alphabet/IMG_4619.PNG",
-        "/src/assets/images/alphabet/IMG_4620.PNG",
-        "/src/assets/images/alphabet/IMG_4621.PNG"
+        "/assets/images/alphabet/2 2.png",
+        "/assets/images/alphabet/IMG_4596.PNG",
+        "/assets/images/alphabet/IMG_4597.PNG",
+        "/assets/images/alphabet/IMG_4598.PNG",
+        "/assets/images/alphabet/IMG_4599.PNG",
+        "/assets/images/alphabet/IMG_4600.PNG",
+        "/assets/images/alphabet/IMG_4601.PNG",
+        "/assets/images/alphabet/IMG_4602.PNG",
+        "/assets/images/alphabet/IMG_4603.PNG",
+        "/assets/images/alphabet/IMG_4604.PNG",
+        "/assets/images/alphabet/IMG_4605.PNG",
+        "/assets/images/alphabet/IMG_4606.PNG",
+        "/assets/images/alphabet/IMG_4607.PNG",
+        "/assets/images/alphabet/IMG_4608.PNG",
+        "/assets/images/alphabet/IMG_4609.PNG",
+        "/assets/images/alphabet/IMG_4610.PNG",
+        "/assets/images/alphabet/IMG_4611.PNG",
+        "/assets/images/alphabet/IMG_4612.PNG",
+        "/assets/images/alphabet/IMG_4613.PNG",
+        "/assets/images/alphabet/IMG_4614.PNG",
+        "/assets/images/alphabet/IMG_4615.PNG",
+        "/assets/images/alphabet/IMG_4616.PNG",
+        "/assets/images/alphabet/IMG_4617.PNG",
+        "/assets/images/alphabet/IMG_4618.PNG",
+        "/assets/images/alphabet/IMG_4619.PNG",
+        "/assets/images/alphabet/IMG_4620.PNG",
+        "/assets/images/alphabet/IMG_4621.PNG"
       ],
       "color": "yellow"
     },
@@ -69,10 +69,10 @@
       "title": "How To Draw",
       "description": "Step-by-step drawing tutorials and guides.",
       "images": [
-        "/src/assets/images/alphabet/IMG_4593.PNG",
-        "/src/assets/images/alphabet/IMG_4594.PNG",
-        "/src/assets/images/alphabet/IMG_4595.PNG",
-        "/src/assets/images/alphabet/IMG_4622.PNG"
+        "/assets/images/alphabet/IMG_4593.PNG",
+        "/assets/images/alphabet/IMG_4594.PNG",
+        "/assets/images/alphabet/IMG_4595.PNG",
+        "/assets/images/alphabet/IMG_4622.PNG"
       ],
       "color": "blue"
     },
@@ -81,19 +81,17 @@
       "title": "Magic Forest",
       "description": "Enchanting illustrations for children's stories.",
       "images": [
-        "/src/assets/images/magic-forest/1.png",
-        "/src/assets/images/magic-forest/2.png",
-
-        "/src/assets/images/magic-forest/6.png",
-        "/src/assets/images/magic-forest/6.png",
-        "/src/assets/images/magic-forest/6.png",
-        "/src/assets/images/magic-forest/6 3.png",
-        "/src/assets/images/magic-forest/6 4.png",
-        "/src/assets/images/magic-forest/6 5.png",
-        "/src/assets/images/magic-forest/6 2.png",
-
-        "/src/assets/images/magic-forest/IMG_4590.PNG",
-        "/src/assets/images/magic-forest/5.png"
+        "/assets/images/magic-forest/1.png",
+        "/assets/images/magic-forest/2.png",
+        "/assets/images/magic-forest/6.png",
+        "/assets/images/magic-forest/6.png",
+        "/assets/images/magic-forest/6.png",
+        "/assets/images/magic-forest/6 3.png",
+        "/assets/images/magic-forest/6 4.png",
+        "/assets/images/magic-forest/6 5.png",
+        "/assets/images/magic-forest/6 2.png",
+        "/assets/images/magic-forest/IMG_4590.PNG",
+        "/assets/images/magic-forest/5.png"
       ],
       "color": "green"
     },
@@ -102,27 +100,27 @@
       "title": "Learn to Count",
       "description": "Interactive counting illustrations for early learning.",
       "images": [
-        "/src/assets/images/learn-to-count/IMG_4624.PNG",
-        "/src/assets/images/learn-to-count/IMG_4625.PNG",
-        "/src/assets/images/learn-to-count/IMG_4626.PNG",
-        "/src/assets/images/learn-to-count/IMG_4627.PNG",
-        "/src/assets/images/learn-to-count/IMG_4628.PNG"
+        "/assets/images/learn-to-count/IMG_4624.PNG",
+        "/assets/images/learn-to-count/IMG_4625.PNG",
+        "/assets/images/learn-to-count/IMG_4626.PNG",
+        "/assets/images/learn-to-count/IMG_4627.PNG",
+        "/assets/images/learn-to-count/IMG_4628.PNG"
       ],
-      "video": "/src/assets/images/learn-to-count/learntocount.mp4",
+      "video": "/assets/images/learn-to-count/learntocount.mp4",
       "color": "blue"
     },
     {
       "id": "thank-you",
       "title": "Thank You",
       "description": "A special thank you message.",
-      "video": "/src/assets/thankyou.mp4",
+      "video": "/assets/thankyou.mp4",
       "color": "pink"
     },
     {
       "id": "heroes",
       "title": "Heroes",
       "description": "Illustrations of heroes and characters.",
-      "images": ["/src/assets/images/heroes/IMG_4640.PNG"],
+      "images": ["/assets/images/heroes/IMG_4640.PNG"],
       "color": "red"
     }
   ]
