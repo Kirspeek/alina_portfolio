@@ -26,7 +26,7 @@ function App() {
   };
 
   // Function to determine if a card should span multiple columns
-  const getSpanClass = (project: any) => {
+  const getSpanClass = (project: Project) => {
     if (project.id === "lettering") return "span-3";
     if (project.id === "magic-forest" || project.id === "alphabet")
       return "span-2";
