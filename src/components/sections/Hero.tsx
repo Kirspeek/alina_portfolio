@@ -34,7 +34,7 @@ const Hero = () => {
                 mb: 2,
               }}
             >
-              Hi, I'm Alina
+              Hi, I'm Al
             </Typography>
           </motion.div>
 

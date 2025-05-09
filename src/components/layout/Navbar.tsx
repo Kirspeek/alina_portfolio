@@ -58,7 +58,7 @@ const Navbar = () => {
           whileHover={{ scale: 1.1 }}
           sx={{ flexGrow: 1, color: "#333", fontWeight: "bold" }}
         >
-          Alina
+          Ali
         </Typography>
 
         {isMobile ? (
