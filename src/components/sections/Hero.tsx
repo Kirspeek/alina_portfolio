@@ -7,7 +7,7 @@ const Hero = () => {
       sx={{
         minHeight: "100vh",
         display: "flex",
-        alignItems: "center",
+
         background: "linear-gradient(45deg, #f3f4f6 30%, #ffffff 90%)",
       }}
     >
