@@ -6,7 +6,7 @@ const Hero = () => {
     <Box
       sx={{
         minHeight: "100vh",
-        display: "flex",
+       
 
         background: "linear-gradient(45deg, #f3f4f6 30%, #ffffff 90%)",
       }}
